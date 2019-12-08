@@ -1,0 +1,1 @@
+curl -d '{"email":"asas5445ggeeegas2323@gushter.com", "password":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:3000/users/register

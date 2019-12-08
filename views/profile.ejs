@@ -1,0 +1,9 @@
+<h1><%= title%></h1>
+<form action="/users/update/<%= user.id%>" method="POST">
+	<input id="email" type="text" name="email" value="<%= user.email%>" />
+	<input id="firstName" type="text" name="firstName" value="<%= user.name.firstName%>" />
+	<input id="lastName" type="text" name="lastName" value="<%= user.name.lastName%>" />
+	<input id="age" type="text" name="age" value="<%= user.age%>" />
+	<input type="submit" value="Update" />
+	<a href="/users/logout">Logout</a>
+</form>
